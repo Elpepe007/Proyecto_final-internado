@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/App_1/index/" method="get"> {% csrf_token %}
+        <p>nombre: <input type="text" name="nombre"></p>
+        <p>apellido: <input type="text" name="apellido"></p>
+        <p>trabajo: <input type="text" name="trabajo"></p>
+        <p>HDT: <input type="number" name="horas_de_trabajo"></p>
+        <input type="submit" name="enviar"></p>
+    </form>
+
+
+
+    
+</body>
+</html>
